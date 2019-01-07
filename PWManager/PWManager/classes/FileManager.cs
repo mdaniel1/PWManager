@@ -270,6 +270,8 @@ namespace PWManager.classes
                     string DecryptedAccount = DecryptText(s, "BXGEDLbNaX");
                     d.ListAccount.Add(DecryptedAccount);
                 }
+
+                br.Close();
             }
             catch(Exception e)
             {
